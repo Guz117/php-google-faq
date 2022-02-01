@@ -71,16 +71,21 @@ $faqs = [
 <body>
 
     <header>
-        <div class="img">
-            <img src="img/googlelogo_clr_74x24px.svg" alt=""><span class="privacy">Privacy termini</span>
+        <nav>
+            <div class="img">
+                <img src="img/googlelogo_clr_74x24px.svg" alt=""><span class="privacy">Privacy termini</span>
+            </div>
+            <ul class="ul-nav">
+                <li class="li-nav"><a href="#">Introduzione</a></li>
+                <li class="li-nav"><a href="#">Norme sulla privacy</a></li>
+                <li class="li-nav"><a href="#">Termini di servizio</a></li>
+                <li class="li-nav"><a href="#">Tecnologie</a></li>
+                <li class="li-nav"><a href="#">Domande frequenti</a></li>
+            </ul>
+        </nav>
+        <div class="button">
+            <img src="img/nineDots.png" alt="">
         </div>
-        <ul class="ul-nav">
-            <li class="li-nav"><a href="#">Introduzione</a></li>
-            <li class="li-nav"><a href="#">Norme sulla privacy</a></li>
-            <li class="li-nav"><a href="#">Termini di servizio</a></li>
-            <li class="li-nav"><a href="#">Tecnologie</a></li>
-            <li class="li-nav"><a href="#">Domande frequenti</a></li>
-        </ul>
     </header>
 
     <main>
@@ -90,6 +95,24 @@ $faqs = [
             <p><?php echo $faq['answer'] ?></p>
         <?php } ?>
     </main>
+
+    <footer>
+        <div class="footer">
+            <ul class="ul-footer">
+                <li class="li-footer"><a href="#">Google</a></li>
+                <li class="li-footer"><a href="#">Tutto su google</a></li>
+                <li class="li-footer"><a href="#">Privacy</a></li>
+                <li class="li-footer"><a href="#">Termini</a></li>
+            </ul>
+            <select name="" id="">
+                <option value="0">Italiano</option>
+                <option value="1">Tedesco</option>
+                <option value="2">Inglese</option>
+                <option value="3">Francese</option>
+                <option value="4">Spagnolo</option>
+            </select>
+        </div>
+    </footer>
 
 </body>
 
