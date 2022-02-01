@@ -71,6 +71,19 @@ $faqs = [
 
 <body>
 
+    <header>
+        <div class="img">
+            <img src="img/googlelogo_clr_74x24px.svg" alt=""><span class="privacy">Privacy termini</span>
+        </div>
+        <ul>
+            <li><a href="#">Introduzione</a></li>
+            <li><a href="#">Norme sulla privacy</a></li>
+            <li><a href="#">Termini di servizio</a></li>
+            <li><a href="#">Tecnologie</a></li>
+            <li><a href="#">Domande frequenti</a></li>
+        </ul>
+    </header>
+
     <main>
         <?php
         foreach ($faqs as $faq) { ?>
